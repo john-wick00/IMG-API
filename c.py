@@ -1,0 +1,1 @@
+"mongodb+srv://img-api:loniko0908@img-api.7dicg.mongodb.net/?retryWrites=true&w=majority&appName=IMG-API"
