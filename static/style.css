@@ -1,12 +1,75 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5F5F5;
+    color: #424242;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 h1 {
-    color: #333;
+    color: #229799;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 form {
-    margin-bottom: 20px;
+    background-color: #48CFCB;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    border: 2px solid #229799;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #424242;
+}
+
+button {
+    background-color: #229799;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e7d74;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #424242;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #F5F5F5;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 5px solid #229799;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #229799;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
